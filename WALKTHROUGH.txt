@@ -1,0 +1,25 @@
+WALKTHROUGH:
+
+The goal of the game is to get the treasures required to be let back into the Outpost. These
+are hidden around the world for you to find, and require unlocking doors and chests and finding
+keys, while avoiding zombies.
+
+There are two treasures in the world, the first in the church near where you start, and the second
+in the town on the grassy area a few minutes walk away. Each has its own small puzzle to solve. For
+marking purposes however, we've only required you get one of the treasures to win. Here is a short
+walkthrough for how to get the treasure in the church. Note that you must be very close to chests to
+open them.
+
+You must find three keys:
+
+1. In the large house adjacent to the church (not the gas station), there is a locked chest with
+   the first key in it. The key to open the locked chest is in the room too. This key unlocks the
+   outer set of church doors.
+2. In the left side entrance of the church, inside the first set of doors, you can find the second
+   key. This opens the inner church doors.
+3. In the house opposite the church is a chest with the third key in it, this unlocks the chest
+   inside the church, near the altar.
+
+Once you have the treasure from inside the chest in the church, walk to the large Outpost gate in
+the distance and activate it with the treasure in your inventory to win the game.
+   
