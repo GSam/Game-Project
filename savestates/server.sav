@@ -1,0 +1,1868 @@
+<?xml  version='1.0' encoding='UTF-8'?>
+<world.World format_version='2' nextEntityID='95' playerSpeed='0.6' savable_versions='0'>
+    <savedents size='94'>
+        <world.EntitySpawnData savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.WorldObject' meshfile='Scenes/alexterrain/alexterrain.scene' savable_versions='0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' y='50.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='2.0' y='2.0' z='2.0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' y='50.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='1' savable_versions='0'>
+            <e class='world.entity.trigger.TriggerZone' savable_versions='0, 0' triggered='true'>
+                <colshape class='com.jme3.bullet.collision.shapes.CompoundCollisionShape' savable_versions='0, 0'>
+                    <children size='1'>
+                        <com.jme3.bullet.collision.shapes.infos.ChildCollisionShape savable_versions='0'>
+                            <shape class='com.jme3.bullet.collision.shapes.BoxCollisionShape' savable_versions='0, 0'>
+                                <halfExtents class='com.jme3.math.Vector3f' savable_versions='0' x='160.657' y='15.865484' z='74.10919'/>
+                            </shape>
+                        </com.jme3.bullet.collision.shapes.infos.ChildCollisionShape>
+                    </children>
+                </colshape>
+                <actions size='8'>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='221.35562' y='95.415436' z='202.04411'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='120.66666' y='95.414986' z='201.14502'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='169.21312' y='95.414986' z='201.14502'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='172.8093' y='95.44165' z='254.18886'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='34.495056' y='95.44165' z='201.49773'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='312.22128' y='95.44165' z='201.49773'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='310.02582' y='95.44164' z='314.56412'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                    <world.entity.trigger.SpawnZombieAction savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' savable_versions='0' x='44.374672' y='95.44164' z='310.1732'/>
+                    </world.entity.trigger.SpawnZombieAction>
+                </actions>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='173.53482' y='62.94336' z='297.485'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='2' savable_versions='0'>
+            <e angle='1.5707964' class='world.entity.staticentity.RotatingDoor' lockstate='LOCKED' meshPath='door/door.mesh.xml' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematic='true' linearSleepingThreshold='0.8' mass='1.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-270.0' y='10.0' z='45.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='-4.371139E-8' y='1.0'/>
+                </physics>
+                <keys data='6' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='3.0' y='1.0' z='1.0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-270.0' y='10.0' z='45.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='3' savable_versions='0'>
+            <e angle='4.712389' class='world.entity.staticentity.SwingLiftingDoor' lockstate='LOCKED' meshPath='door/door.mesh.xml' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematic='true' linearSleepingThreshold='0.8' mass='1.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-103.0' y='82.0' z='-466.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='-3.090862E-8' x='0.70710677' y='3.090862E-8' z='0.70710677'/>
+                </physics>
+                <keys data='21' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='3.0' y='1.2' z='1.0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-103.0' y='82.0' z='-466.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='4' savable_versions='0'>
+            <e angle='4.712389' class='world.entity.staticentity.LiftingDoor' doorpos='0.0' lockstate='LOCKED' meshPath='door/door.mesh.xml' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematic='true' linearSleepingThreshold='0.8' mass='1.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='170.0' y='40.0' z='-543.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.70710677' y='-0.70710677'/>
+                </physics>
+                <keys data='19' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='3.0' y='2.0' z='1.0'/>
+                <closedpos class='com.jme3.math.Vector3f' savable_versions='0' x='170.0' y='40.0' z='-543.0'/>
+                <openpos class='com.jme3.math.Vector3f' savable_versions='0' x='170.0' y='75.0' z='-543.0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='170.0' y='40.0' z='-543.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='5' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' y='16.0' z='-80.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='' size='0'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='10.0' y='10.0' z='10.0'/>
+                <inventory class='world.Inventory' owner='5' savable_versions='0' size='16'>
+                    <items data='' size='0'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' y='16.0' z='-80.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='6' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='56.07626' y='53.604538' z='337.8873'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.696924' x='-0.71624047' y='-0.030389776' z='0.019318135'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Locked Chestia key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='56.07626' y='53.604538' z='337.8873'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='7' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='90.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='' size='0'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='7' savable_versions='0' size='16'>
+                    <items data='9 8 10' size='3'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='90.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='8' savable_versions='0'>
+            <e class='world.entity.item.container.Wallet' name='' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <inventory class='world.Inventory' owner='8' savable_versions='0' size='16'>
+                    <items data='' size='0'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='9' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='10' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='11' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='120.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='18' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='11' savable_versions='0' size='16'>
+                    <items data='12' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='120.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='12' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Other side key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='13' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='150.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='10' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='13' savable_versions='0' size='16'>
+                    <items data='14' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='150.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='14' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='15' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='180.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='14' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='15' savable_versions='0' size='16'>
+                    <items data='16' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='180.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='16' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='17' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='210.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='9' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='17' savable_versions='0' size='16'>
+                    <items data='18 19' size='2'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='210.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='18' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='19' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Outpost Key 2' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='20' savable_versions='0'>
+            <e angle='0.0' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='240.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <keys data='16' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='20' savable_versions='0' size='16'>
+                    <items data='21' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-150.0' y='8.0' z='240.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='21' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Outpost Key 1' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='22' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='11.0' z='90.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='12' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='22' savable_versions='0' size='16'>
+                    <items data='23' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='11.0' z='90.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='23' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='24' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='11.0' z='105.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='23' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='24' savable_versions='0' size='16'>
+                    <items data='25' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='11.0' z='105.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='25' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='26' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='11.0' z='120.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='25' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='26' savable_versions='0' size='16'>
+                    <items data='27' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='11.0' z='120.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='27' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='28' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='10.0' z='135.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='27' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='28' savable_versions='0' size='16'>
+                    <items data='29' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='10.0' z='135.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='29' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='30' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='8.0' z='150.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='29' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='30' savable_versions='0' size='16'>
+                    <items data='31' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='8.0' z='150.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='31' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='32' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='8.0' z='165.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='31' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='32' savable_versions='0' size='16'>
+                    <items data='33' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='8.0' z='165.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='33' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='34' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='10.0' z='180.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='33' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='34' savable_versions='0' size='16'>
+                    <items data='35' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='10.0' z='180.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='35' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='36' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='12.0' z='195.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='35' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='36' savable_versions='0' size='16'>
+                    <items data='37' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='12.0' z='195.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='37' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='38' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='13.0' z='210.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='37' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='38' savable_versions='0' size='16'>
+                    <items data='39' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='13.0' z='210.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='39' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='40' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='15.0' z='225.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='39' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='40' savable_versions='0' size='16'>
+                    <items data='41' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='15.0' z='225.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='41' savable_versions='0'>
+            <e class='world.entity.item.miscellaneous.Key' keyName='' meshPath='Models/key/key.scene' name='' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <info DESCRIPTION='A rusty old key' NAME='Key' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='42' savable_versions='0'>
+            <e angle='0.7853982' class='world.entity.staticentity.SimpleContainer' lockstate='LOCKED' meshPath='Models/chest/chest.scene' savable_versions='0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='17.0' z='240.0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.98078525' y='0.19509034'/>
+                </physics>
+                <keys data='41' size='1'/>
+                <scale class='com.jme3.math.Vector3f' savable_versions='0' x='5.0' y='5.0' z='5.0'/>
+                <inventory class='world.Inventory' owner='42' savable_versions='0' size='16'>
+                    <items data='43' size='1'/>
+                </inventory>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-320.0' y='17.0' z='240.0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='43' savable_versions='0'>
+            <e class='world.entity.item.gizmo.StealthField' name='' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='44' savable_versions='0'>
+            <e class='world.entity.item.torch.SimpleTorch' name='' power='0.2' radius='80.0' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='7.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0' x='193.36026' y='10.275155' z='-17.273243'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0' w='0.4617154' x='-0.47554314' y='0.51976717' z='0.53899884'/>
+                </physics>
+                <color a='8.0' b='8.0' class='com.jme3.math.ColorRGBA' g='4.8' r='2.4' savable_versions='0'/>
+                <info DESCRIPTION='A strong but short-range light' NAME='Plasma Beacon' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='193.36026' y='10.275155' z='-17.273243'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='45' savable_versions='0'>
+            <e class='world.Player' reference_ID='world.Player@1650590141' savable_versions='0, 0, 0' state='MOVING'>
+                <stats baseENERGY='100.0' baseHEALTH='100.0' baseMAXENERGY='100.0' baseMAXHEALTH='100.0' baseSPEED='1.5' class='world.ActorStats' curENERGY='100.0' curHEALTH='94.0' curMAXENERGY='100.0' curMAXHEALTH='100.0' curSPEED='1.5' savable_versions='0'/>
+                <lookDir class='com.jme3.math.Vector3f' savable_versions='0' z='1.0'/>
+                <viewDir class='com.jme3.math.Vector3f' savable_versions='0' z='1.0'/>
+                <inventory class='world.Inventory' owner='45' savable_versions='0' size='16'>
+                    <items data='46 44 47 48 50' size='5'/>
+                </inventory>
+                <equipment class='world.PlayerEquipment' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-172.5466' y='52.99566' z='-415.69257'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='46' savable_versions='0'>
+            <e class='world.entity.item.gizmo.Push' name='' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='47' savable_versions='0'>
+            <e class='world.entity.item.torch.SimpleTorch' name='' power='0.4' radius='100.0' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='7.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+                <color a='8.0' b='5.6' class='com.jme3.math.ColorRGBA' g='8.0' r='5.6' savable_versions='0'/>
+                <info DESCRIPTION='A weak but long-ranged lamp' NAME='Industrial Lamp' class='world.entity.item.ItemInfo' savable_versions='0'/>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='48' savable_versions='0'>
+            <e class='world.entity.item.equippable.SimpleGun' name='' savable_versions='0, 0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='50' savable_versions='0'>
+            <e class='world.entity.item.gizmo.StealthField' name='' savable_versions='0, 0, 0, 0, 0'>
+                <physics angularFactor='1.0' angularSleepingThreshold='1.0' class='savefile.RigidBodyPhysicsState' collideWithGroups='1' collisionGroup='1' isKinematicSpatial='true' linearSleepingThreshold='0.8' mass='4000.0' savable_versions='0'>
+                    <angularVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <linearVelocity class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsLocation class='com.jme3.math.Vector3f' savable_versions='0'/>
+                    <physicsRotation class='com.jme3.math.Quaternion' savable_versions='0'/>
+                </physics>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='51' savable_versions='0'>
+            <e class='world.entity.mob.SlowZombie' name='Damian' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.15' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.15' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='3' tsr='3.7626789'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='380.89066' y='15.914355' z='-386.18417'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='52' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Horacio' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.8159323'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@1715789415' savable_versions='0' x='-128.88507' y='12.877686' z='-292.42868'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@-440171415' savable_versions='0' x='-192.10509' y='32.80643' z='-292.42868'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@1746537173' savable_versions='0' x='-264.77344' y='34.80544' z='-292.42868'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@1652237256' savable_versions='0' x='-259.19754' y='51.432125' z='-411.7066'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@1686863649' savable_versions='0' x='-259.19754' y='54.77506' z='-452.16843'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@-803967556' savable_versions='0' x='-186.07779' y='52.924473' z='-481.2033'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-67.91071' y='13.08691' z='-386.6002'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='53' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Shannon' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.7989136'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-107.31016' y='12.083485' z='-385.76294'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='54' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Dick' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.560958'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-95.54631' y='12.761129' z='-386.55014'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='55' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.52696604'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-98.53235' y='12.426986' z='-386.50964'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='56' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Craig' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.5099695'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@63294986' savable_versions='0' x='-247.52504' y='13.211006' z='-148.37643'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@483101948' savable_versions='0' x='-247.52504' y='31.227444' z='-229.27118'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-382.7997' y='14.319094' z='-246.47852'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='57' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Damian' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.47596052'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-62.00577' y='12.897673' z='-386.47195'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='58' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Scotty' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.4589506'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-113.23358' y='12.2114315' z='-385.08447'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='59' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.44196746'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-101.474625' y='12.102835' z='-386.45444'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='60' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.42310253'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-65.01675' y='12.994247' z='-386.5512'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='61' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.40795228'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-220.59067' y='9.860166' z='-211.26268'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='62' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.3851777'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-270.93164' y='53.59671' z='-563.6109'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='63' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.35694525'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-221.24103' y='9.67358' z='-206.07227'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='64' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Percy' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.32296756'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-288.82187' y='55.922752' z='-564.0936'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='65' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Jayson' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='2.1818469'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-110.27541' y='12.145551' z='-385.42178'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='66' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Nathanial' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='2.1647663'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-381.13342' y='13.9049835' z='-384.67365'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='67' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.765633'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@1095053764' savable_versions='0' x='167.93062' y='13.1663475' z='-20.657867'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='188.77415' y='47.71083' z='120.86103'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='68' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Logan' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.74861'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='187.71611' y='48.455727' z='123.5948'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='69' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.203806'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-338.4133' y='56.50892' z='-565.4673'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='70' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.18694083'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-335.4132' y='56.680954' z='-565.56995'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='71' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Delmar' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.15291648'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-104.36244' y='12.019831' z='-386.09918'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='72' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Kirby' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.10197049'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' reference_ID='com.jme3.math.Vector3f@-329982037' savable_versions='0' x='-117.675026' y='12.881439' z='-152.50438'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                            <next class='world.ai.PathNode' savable_versions='0'>
+                                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                            </next>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-383.496' y='14.019234' z='-379.28375'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='73' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Eddy' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.08493187'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                            <next class='world.ai.PathNode' savable_versions='0'>
+                                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                            </next>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='349.06323' y='55.510124' z='348.34024'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='74' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.067981005'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                            <next class='world.ai.PathNode' savable_versions='0'>
+                                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                            </next>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='349.08273' y='55.545982' z='343.04446'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='75' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Cornell' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.050950095'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                            <next class='world.ai.PathNode' savable_versions='0'>
+                                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                            </next>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-218.37132' y='9.60826' z='-210.35362'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='76' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Bobbie' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.033938162'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                            <next class='world.ai.PathNode' savable_versions='0'>
+                                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                            </next>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-220.51282' y='9.611086' z='-208.76404'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='77' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='0.017007312'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                    <next class='world.ai.PathNode' savable_versions='0'>
+                                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                        <next class='world.ai.PathNode' savable_versions='0'>
+                                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                            <next class='world.ai.PathNode' savable_versions='0'>
+                                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                            </next>
+                                        </next>
+                                    </next>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-237.26295' y='10.95555' z='-147.3936'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='78' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Truman' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='1' tsr='5.0026135'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-375.63855' y='14.568493' z='-385.0173'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='79' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Russell' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.9855065'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-382.7744' y='14.425961' z='-249.41563'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='80' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.969067'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-384.09732' y='15.699013' z='-285.53995'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='81' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Olen' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.951567'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-383.42825' y='14.24578' z='-376.44406'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='82' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.9356303'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='186.62964' y='49.204666' z='126.357834'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='83' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Craig' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.9186215'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='382.24603' y='13.634633' z='-4.844014'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='84' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Percy' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.9015985'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='349.019' y='55.5279' z='345.77902'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='85' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Benedict' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.8845725'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='349.2115' y='55.4898' z='350.26282'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='86' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Clarence' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.867595'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='185.55467' y='49.94337' z='129.08643'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='87' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.8506265'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-383.6104' y='13.782026' z='-382.22098'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='88' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Lavern' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.833613'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='382.3543' y='13.422783' z='-2.3264294'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='89' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Cedrick' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='3' tsr='4.8165936'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-175.49345' y='12.055819' z='-270.4049'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='90' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.7996078'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-384.21802' y='15.729746' z='-288.37198'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='91' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Garming' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='3' tsr='4.7826114'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-172.92526' y='11.417451' z='-270.133'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='92' savable_versions='0'>
+            <e class='world.entity.mob.SlowZombie' name='Britt' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.15' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.15' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='3.9667058'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-378.44138' y='14.233795' z='-384.8174'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='93' savable_versions='0'>
+            <e class='world.entity.mob.FastZombie' name='Tony the Two Bit Terrier' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.2' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.2' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='2' tsr='4.034678'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                    <path class='world.ai.PathNode' savable_versions='0'>
+                        <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                        <next class='world.ai.PathNode' savable_versions='0'>
+                            <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                            <next class='world.ai.PathNode' savable_versions='0'>
+                                <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                <next class='world.ai.PathNode' savable_versions='0'>
+                                    <loc class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                </next>
+                            </next>
+                        </next>
+                    </path>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-174.654' y='11.325976' z='-268.08203'/>
+        </world.EntitySpawnData>
+        <world.EntitySpawnData id='94' savable_versions='0'>
+            <e class='world.entity.mob.SlowZombie' name='Kurtis' savable_versions='0, 0, 0, 0, 0' state='MOVING'>
+                <stats baseDAMAGE='5.0' baseHEALTH='8.0' baseMAXHEALTH='8.0' baseSPEED='0.15' class='world.ActorStats' curDAMAGE='5.0' curHEALTH='8.0' curMAXHEALTH='8.0' curSPEED='0.15' savable_versions='0'/>
+                <ai class='world.ai.StandardZombie' savable_versions='0, 0' state='3' tsr='4.0516934'>
+                    <pathing class='world.ai.NodePathing' savable_versions='0'/>
+                </ai>
+            </e>
+            <loc class='com.jme3.math.Vector3f' savable_versions='0' x='-383.6724' y='13.5907' z='-384.65274'/>
+        </world.EntitySpawnData>
+    </savedents>
+    <otherPlayers size='1'>
+        <world.Player ref='world.Player@1650590141'/>
+    </otherPlayers>
+    <pathNodes size='21'>
+        <world.PathNode reference_ID='world.PathNode@2060873420' savable_versions='0'>
+            <pos class='com.jme3.math.Vector3f' savable_versions='0' x='172.81508' y='51.077408' z='225.16629'/>
+            <adj size='1'>
+                <world.PathNode reference_ID='world.PathNode@317303541' savable_versions='0'>
+                    <pos class='com.jme3.math.Vector3f' savable_versions='0' x='172.81508' y='51.126236' z='127.2253'/>
+                    <adj size='2'>
+                        <world.PathNode reference_ID='world.PathNode@335827477' savable_versions='0'>
+                            <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1095053764'/>
+                            <adj size='5'>
+                                <world.PathNode reference_ID='world.PathNode@665381623' savable_versions='0'>
+                                    <pos class='com.jme3.math.Vector3f' savable_versions='0' x='164.82373' y='13.163326' z='-278.4973'/>
+                                    <adj size='5'>
+                                        <world.PathNode ref='world.PathNode@335827477'/>
+                                        <world.PathNode reference_ID='world.PathNode@1653013010' savable_versions='0'>
+                                            <pos class='com.jme3.math.Vector3f' savable_versions='0' x='-254.60567' y='12.755417' z='-19.028374'/>
+                                            <adj size='6'>
+                                                <world.PathNode reference_ID='world.PathNode@1351989414' savable_versions='0'>
+                                                    <pos class='com.jme3.math.Vector3f' savable_versions='0' x='-256.0362' y='13.211006' z='46.03206'/>
+                                                    <adj size='5'>
+                                                        <world.PathNode ref='world.PathNode@1653013010'/>
+                                                        <world.PathNode reference_ID='world.PathNode@237373127' savable_versions='0'>
+                                                            <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1715789415'/>
+                                                            <adj size='6'>
+                                                                <world.PathNode ref='world.PathNode@1351989414'/>
+                                                                <world.PathNode ref='world.PathNode@665381623'/>
+                                                                <world.PathNode ref='world.PathNode@335827477'/>
+                                                                <world.PathNode ref='world.PathNode@1653013010'/>
+                                                                <world.PathNode reference_ID='world.PathNode@230376765' savable_versions='0'>
+                                                                    <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-440171415'/>
+                                                                    <adj size='3'>
+                                                                        <world.PathNode ref='world.PathNode@237373127'/>
+                                                                        <world.PathNode reference_ID='world.PathNode@193717831' savable_versions='0'>
+                                                                            <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@483101948'/>
+                                                                            <adj size='3'>
+                                                                                <world.PathNode ref='world.PathNode@230376765'/>
+                                                                                <world.PathNode reference_ID='world.PathNode@361612191' savable_versions='0'>
+                                                                                    <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@63294986'/>
+                                                                                    <adj size='7'>
+                                                                                        <world.PathNode ref='world.PathNode@1351989414'/>
+                                                                                        <world.PathNode ref='world.PathNode@665381623'/>
+                                                                                        <world.PathNode ref='world.PathNode@335827477'/>
+                                                                                        <world.PathNode ref='world.PathNode@1653013010'/>
+                                                                                        <world.PathNode ref='world.PathNode@193717831'/>
+                                                                                        <world.PathNode reference_ID='world.PathNode@2062722705' savable_versions='0'>
+                                                                                            <pos class='com.jme3.math.Vector3f' savable_versions='0' x='-251.55675' y='13.211018' z='215.3556'/>
+                                                                                            <adj size='3'>
+                                                                                                <world.PathNode ref='world.PathNode@1351989414'/>
+                                                                                                <world.PathNode ref='world.PathNode@1653013010'/>
+                                                                                                <world.PathNode ref='world.PathNode@361612191'/>
+                                                                                            </adj>
+                                                                                        </world.PathNode>
+                                                                                        <world.PathNode reference_ID='world.PathNode@1121587832' savable_versions='0'>
+                                                                                            <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-329982037'/>
+                                                                                            <adj size='6'>
+                                                                                                <world.PathNode ref='world.PathNode@1351989414'/>
+                                                                                                <world.PathNode ref='world.PathNode@665381623'/>
+                                                                                                <world.PathNode ref='world.PathNode@335827477'/>
+                                                                                                <world.PathNode ref='world.PathNode@1653013010'/>
+                                                                                                <world.PathNode ref='world.PathNode@237373127'/>
+                                                                                                <world.PathNode ref='world.PathNode@361612191'/>
+                                                                                            </adj>
+                                                                                        </world.PathNode>
+                                                                                    </adj>
+                                                                                </world.PathNode>
+                                                                                <world.PathNode reference_ID='world.PathNode@29273814' savable_versions='0'>
+                                                                                    <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1746537173'/>
+                                                                                    <adj size='3'>
+                                                                                        <world.PathNode reference_ID='world.PathNode@231236735' savable_versions='0'>
+                                                                                            <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1652237256'/>
+                                                                                            <adj size='2'>
+                                                                                                <world.PathNode reference_ID='world.PathNode@1597887722' savable_versions='0'>
+                                                                                                    <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@1686863649'/>
+                                                                                                    <adj size='2'>
+                                                                                                        <world.PathNode reference_ID='world.PathNode@1415937919' savable_versions='0'>
+                                                                                                            <pos class='com.jme3.math.Vector3f' ref='com.jme3.math.Vector3f@-803967556'/>
+                                                                                                            <adj size='2'>
+                                                                                                                <world.PathNode reference_ID='world.PathNode@1402312226' savable_versions='0'>
+                                                                                                                    <pos class='com.jme3.math.Vector3f' savable_versions='0' x='-98.30152' y='52.924473' z='-481.2033'/>
+                                                                                                                    <adj size='2'>
+                                                                                                                        <world.PathNode ref='world.PathNode@1415937919'/>
+                                                                                                                        <world.PathNode reference_ID='world.PathNode@28556557' savable_versions='0'>
+                                                                                                                            <pos class='com.jme3.math.Vector3f' savable_versions='0' x='-39.198845' y='52.924473' z='-481.2033'/>
+                                                                                                                            <adj size='2'>
+                                                                                                                                <world.PathNode ref='world.PathNode@1402312226'/>
+                                                                                                                                <world.PathNode reference_ID='world.PathNode@1061200218' savable_versions='0'>
+                                                                                                                                    <pos class='com.jme3.math.Vector3f' savable_versions='0' x='64.35509' y='54.215' z='-555.7064'/>
+                                                                                                                                    <adj size='2'>
+                                                                                                                                        <world.PathNode reference_ID='world.PathNode@740375591' savable_versions='0'>
+                                                                                                                                            <pos class='com.jme3.math.Vector3f' savable_versions='0' x='157.74277' y='44.609783' z='-555.7064'/>
+                                                                                                                                            <adj size='2'>
+                                                                                                                                                <world.PathNode ref='world.PathNode@1061200218'/>
+                                                                                                                                                <world.PathNode reference_ID='world.PathNode@972307219' savable_versions='0'>
+                                                                                                                                                    <pos class='com.jme3.math.Vector3f' savable_versions='0' x='244.79416' y='37.15342' z='-555.7064'/>
+                                                                                                                                                    <adj size='1'>
+                                                                                                                                                        <world.PathNode ref='world.PathNode@740375591'/>
+                                                                                                                                                    </adj>
+                                                                                                                                                </world.PathNode>
+                                                                                                                                            </adj>
+                                                                                                                                        </world.PathNode>
+                                                                                                                                        <world.PathNode ref='world.PathNode@28556557'/>
+                                                                                                                                    </adj>
+                                                                                                                                </world.PathNode>
+                                                                                                                            </adj>
+                                                                                                                        </world.PathNode>
+                                                                                                                    </adj>
+                                                                                                                </world.PathNode>
+                                                                                                                <world.PathNode ref='world.PathNode@1597887722'/>
+                                                                                                            </adj>
+                                                                                                        </world.PathNode>
+                                                                                                        <world.PathNode ref='world.PathNode@231236735'/>
+                                                                                                    </adj>
+                                                                                                </world.PathNode>
+                                                                                                <world.PathNode ref='world.PathNode@29273814'/>
+                                                                                            </adj>
+                                                                                        </world.PathNode>
+                                                                                        <world.PathNode ref='world.PathNode@193717831'/>
+                                                                                        <world.PathNode ref='world.PathNode@230376765'/>
+                                                                                    </adj>
+                                                                                </world.PathNode>
+                                                                            </adj>
+                                                                        </world.PathNode>
+                                                                        <world.PathNode ref='world.PathNode@29273814'/>
+                                                                    </adj>
+                                                                </world.PathNode>
+                                                                <world.PathNode ref='world.PathNode@1121587832'/>
+                                                            </adj>
+                                                        </world.PathNode>
+                                                        <world.PathNode ref='world.PathNode@2062722705'/>
+                                                        <world.PathNode ref='world.PathNode@1121587832'/>
+                                                        <world.PathNode ref='world.PathNode@361612191'/>
+                                                    </adj>
+                                                </world.PathNode>
+                                                <world.PathNode ref='world.PathNode@665381623'/>
+                                                <world.PathNode ref='world.PathNode@237373127'/>
+                                                <world.PathNode ref='world.PathNode@2062722705'/>
+                                                <world.PathNode ref='world.PathNode@1121587832'/>
+                                                <world.PathNode ref='world.PathNode@361612191'/>
+                                            </adj>
+                                        </world.PathNode>
+                                        <world.PathNode ref='world.PathNode@237373127'/>
+                                        <world.PathNode ref='world.PathNode@1121587832'/>
+                                        <world.PathNode ref='world.PathNode@361612191'/>
+                                    </adj>
+                                </world.PathNode>
+                                <world.PathNode ref='world.PathNode@237373127'/>
+                                <world.PathNode ref='world.PathNode@1121587832'/>
+                                <world.PathNode ref='world.PathNode@361612191'/>
+                                <world.PathNode ref='world.PathNode@317303541'/>
+                            </adj>
+                        </world.PathNode>
+                        <world.PathNode ref='world.PathNode@2060873420'/>
+                    </adj>
+                </world.PathNode>
+            </adj>
+        </world.PathNode>
+        <world.PathNode ref='world.PathNode@317303541'/>
+        <world.PathNode ref='world.PathNode@1653013010'/>
+        <world.PathNode ref='world.PathNode@335827477'/>
+        <world.PathNode ref='world.PathNode@665381623'/>
+        <world.PathNode ref='world.PathNode@1121587832'/>
+        <world.PathNode ref='world.PathNode@2062722705'/>
+        <world.PathNode ref='world.PathNode@1351989414'/>
+        <world.PathNode ref='world.PathNode@361612191'/>
+        <world.PathNode ref='world.PathNode@193717831'/>
+        <world.PathNode ref='world.PathNode@237373127'/>
+        <world.PathNode ref='world.PathNode@230376765'/>
+        <world.PathNode ref='world.PathNode@29273814'/>
+        <world.PathNode ref='world.PathNode@231236735'/>
+        <world.PathNode ref='world.PathNode@1597887722'/>
+        <world.PathNode ref='world.PathNode@1415937919'/>
+        <world.PathNode ref='world.PathNode@1402312226'/>
+        <world.PathNode ref='world.PathNode@28556557'/>
+        <world.PathNode ref='world.PathNode@1061200218'/>
+        <world.PathNode ref='world.PathNode@972307219'/>
+        <world.PathNode ref='world.PathNode@740375591'/>
+    </pathNodes>
+    <effects size='1'>
+        <world.effects.DayNightStatChange savable_versions='0, 0'>
+            <multipliers DAMAGE='1.0' SPEED='1.0' class='world.StatModification' savable_versions='0'/>
+        </world.effects.DayNightStatChange>
+    </effects>
+    <spawn class='com.jme3.math.Vector3f' savable_versions='0' y='50.0'/>
+    <winZone class='com.jme3.bounding.BoundingBox' savable_versions='0, 0' xExtent='70.0' yExtent='10.0' zExtent='590.0'>
+        <center class='com.jme3.math.Vector3f' savable_versions='0' x='280.0' y='40.0' z='-90.0'/>
+    </winZone>
+</world.World>

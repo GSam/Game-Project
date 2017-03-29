@@ -1,0 +1,6 @@
+<?xml  version='1.0' encoding='UTF-8'?>
+<network.PlayerData format_version='2' savable_versions='0'>
+    <names size='1'>
+        <Object class='network.PlayerData$NamePair' id='45' name='Garming' savable_versions='0'/>
+    </names>
+</network.PlayerData>
